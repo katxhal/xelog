@@ -1,3 +1,4 @@
 +++
 +++
-welcome to XeReX's BLOG
+#  XEREX's BLOG
+![](/images/pika.jpg)
