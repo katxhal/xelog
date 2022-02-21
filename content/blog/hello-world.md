@@ -1,41 +1,26 @@
 +++
-title = "Hello world"
-date = 2022-02-21
+title = "Hey there,👺!"
+date = 2022-02-22
 +++
 
-+ Hello world!
-```rust
-#![allow(unused)]
++ Hey, beautiful human this is my 0th blog
 
-use std::{env, sync::Arc};
+- I will writing about this that I like in here , viz. Technology, Languages and sometimes Philosophy but these are bound to change, just like we are .
 
-use model::init_db;
-use web::start_web;
-
-mod model;
-mod web;
-mod security;
+- Mostly I will be writing about things that I enjoy and also criticize them when they are not so enjoyable
 
 
-const DEFAULT_WEB_FOLDER:&'static str = "web-folder/";
-const DEFAULT_WEB_PORT:u16 = 8080;
-
-#[tokio::main]
-async fn main(){
-    //compute the web web-folder
-    let mut args: Vec<String> = env::args().collect();
-    let web_folder = args.pop().unwrap_or_else(|| DEFAULT_WEB_FOLDER.to_string());
-    let web_port = DEFAULT_WEB_PORT;
-
-    // get the database 
-    let db = init_db().await.expect("CAN NOT INITAILIZE database ");
-    let db = Arc::new(db); 
 
 
-    // start the server
-    match start_web(&web_folder,web_port,db).await {
-        Ok(_) => println!("Server ended"),
-        Err(ex) => println!("ERROR - web server failed to start. cause {:?}",ex),
-    }
-}
-```
+
+
+
+
+
+<br/>
+
+#### This is me , for real , not kidding :
+
+![me](/images/hey.jpg)
+
+> *Cherry Bye now*
