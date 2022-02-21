@@ -8,6 +8,8 @@ extra.in_header = true
 
 > likes *RUST AND FOSS*
 
+![](/images/free_as_in_freedom.png)
+
 ```rust 
 fn main() {
     println!("HELLO I AM XEREX !")
