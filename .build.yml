@@ -4,13 +4,13 @@ oauth: pages.sr.ht/PAGES:RW
 environment:
   site: xerexcoded.srht.site
 sources:
-  - https://git.sr.ht/~xerexcoded/xeerablog
+  - https://git.sr.ht/~xerexcoded/xelog
 tasks:
   - build: |
-      cd xeerablog
+      cd xelog
       zola build
   - package: |
-      cd xeerablog
+      cd xelog
       tar -C public -cvz . > ../site.tar.gz
   - upload: |
       acurl -f https://pages.sr.ht/publish/$site -Fcontent=@site.tar.gz
