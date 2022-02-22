@@ -4,7 +4,7 @@
 ```rust
 fn main()
 {
- println!("HALLO , Ich name ist XeReX")
+ println!("HALLO , Ich heiße XeReX")
 }
 ```
 ![](/images/pika.jpg)
