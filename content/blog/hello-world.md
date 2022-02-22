@@ -3,7 +3,7 @@ title = "Hey there,👺!"
 date = 2022-02-22
 +++
 
-### Hey, beautiful human this is my 0 blog
+### Hey, beautiful human this is my 0<sup>th</sup> blog
 
 - I will be writing about this that I like in here , viz. Technology, Languages and sometimes Philosophy but these are subject to change, just like we are .
 
