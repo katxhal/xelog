@@ -15,10 +15,10 @@ highlight_theme = "dracula"
 [extra]
 # Put all your custom variables here
 links = [
-    { title = "🦀git", href = "http://git.xemon.xyz" },
+
+    { title = "source🛖", href = "https://git.sr.ht/~xerexcoded/" },
 
     { title = "github", href = "http://github.com/xerexcoded" },
 
-    { title = "source🛖", href = "https://git.sr.ht/~xerexcoded/" },
     # ...
 ]
