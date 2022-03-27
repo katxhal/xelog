@@ -4,16 +4,6 @@ title = "About"
 extra.in_header = true
 +++
 
-> *KNOW XEREX* 
-  * I am Arnav Kumar Banerjee, a Computer Science undergrad from India 🇮🇳.
-  * I am interested in a lot of things and this site is to muse about those things. 
-  * I am strong believer in hosting your data in a sane fashion , hence stuff that is dear to me, is found at [xegit](https://git.xemon.xyz)
-  * I am from  🏝️ [Andaman and Nicobar Islands](https://en.wikipedia.org/wiki/Andaman_and_Nicobar_Islands)
-<br/>  
-> likes *RUST AND FOSS*
-  * NO TUX NO BUX 🐧
-  * KEEP IT RUSTY 🦀
-
 ### Strives to make things I LIKE :
 ![](/images/free_as_in_freedom.png)
 
