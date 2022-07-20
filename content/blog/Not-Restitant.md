@@ -3,6 +3,6 @@ title = "Note Resitant 10!"
 date = 2022-05-20
 +++
 
-### Hey, Keetu 
+### Hey, Do not dunk it ! 
 
 
