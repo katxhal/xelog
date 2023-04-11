@@ -14,7 +14,7 @@ extra.in_header = true
   * NO TUX NO BUX 🐧
   * KEEP IT RUSTY 🦀
 
-mail: ![proton](shahixeera@proton.me)
+mail: [proton](shahixeera@proton.me)
 
 ### Strives to make things I LIKE :
 ![](/images/free_as_in_freedom.png)
