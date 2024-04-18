@@ -3,7 +3,10 @@ title = "RAG APP"
 date = 2024-04-19
 +++
 
+
 # Personal RAG App: Unleashing the Power of Retrieval-Augmented Generation
+
+![](/images/rag.png)
 
 In the ever-evolving landscape of artificial intelligence, a groundbreaking technology called Retrieval-Augmented Generation (RAG) is revolutionizing the way we interact with and leverage information. This innovative approach combines the capabilities of large language models (LLMs) with external data sources, enabling AI systems to provide accurate, context-aware, and up-to-date responses.
 
