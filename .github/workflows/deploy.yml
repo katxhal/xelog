@@ -33,4 +33,4 @@ jobs:
           docker pull xeera/zola-blog
           docker stop zola-blog || true
           docker rm zola-blog || true
-          docker run -d --name zola-blog -p 80:8080 xeera/zola-blog
+          docker run -d --name zola-blog -p 8080:8080 xeera/zola-blog
