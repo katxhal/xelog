@@ -34,4 +34,3 @@ jobs:
           docker stop zola-blog || true
           docker rm zola-blog || true
           docker run -d --name zola-blog -p 8080:8080 xeera/zola-blog
-          systemctl restart nginx
