@@ -1,11 +1,15 @@
 FROM alpine:latest
 
 # Install Zola
-RUN apk add --no-cache zola
+RUN apk add --no-cache zola git
 
 # Copy the Zola blog
 COPY . /app
 WORKDIR /app
+
+# Initialize and update the theme submodule
+RUN git submodule init
+RUN git submodule update
 
 # Build the Zola blog
 RUN zola build
