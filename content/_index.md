@@ -7,7 +7,7 @@ Here's a new "About" section for your blog, based on the information you provide
 ```rust
 // Exploring the realms of code and creativity
 fn main() {
-    println!("Hello, I'm XeReX!");
+    println!("Hello, I'm xerex!");
     let passion = "Building innovative software";
     let interests = vec!["Web Development", "Machine Learning", "Cybersecurity"];
     
