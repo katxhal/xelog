@@ -31,7 +31,3 @@ jobs:
           # Serve the Zola site
           zola serve --interface 0.0.0.0 --port 8080 &
           
-          # Keep the process running
-          while true; do
-            sleep 60
-          done
