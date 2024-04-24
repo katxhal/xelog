@@ -7,7 +7,7 @@ on:
 
 jobs:
   build-and-deploy:
-    runs-on: fedora-latest
+    runs-on: fedora:latest
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
