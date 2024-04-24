@@ -7,7 +7,7 @@ on:
 
 jobs:
   build-and-deploy:
-    runs-on: ubuntu-latest
+    runs-on: fedora-latest
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
@@ -15,9 +15,7 @@ jobs:
         submodules: true
 
     - name: Install Zola
-      run: |
-        sudo apt update
-        sudo apt install -y zola
+      run: sudo dnf install zola
 
     - name: Build Zola site
       run: |
