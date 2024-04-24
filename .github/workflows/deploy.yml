@@ -11,17 +11,17 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
-
-    - name: Login to Docker Hub
-      uses: docker/login-action@v3
       with:
-        username: ${{ secrets.DOCKERHUB_USERNAME }}
-        password: ${{ secrets.DOCKERHUB_TOKEN }}
+        submodules: true
 
-    - name: Build and Push Docker image
+    - name: Install Zola
       run: |
-        docker build -t xeera/zola-blog .
-        docker push xeera/zola-blog
+        sudo apt update
+        sudo apt install -y zola
+
+    - name: Build Zola site
+      run: |
+        zola build
 
     - name: Deploy to Linode
       uses: appleboy/ssh-action@master
@@ -30,7 +30,17 @@ jobs:
         username: ${{ secrets.LINODE_USERNAME }}
         key: ${{ secrets.LINODE_SSH_KEY }}
         script: |
-          docker pull xeera/zola-blog
-          docker stop zola-blog || true
-          docker rm zola-blog || true
-          docker run -d --name zola-blog -p 8080:8080 xeera/zola-blog
+          # Clone the repository
+          git clone https://github.com/katxhal/xelog.git
+          cd xelog
+          
+          # Build the Zola site
+          zola build
+          
+          # Serve the Zola site
+          zola serve --interface 0.0.0.0 --port 8080 &
+          
+          # Keep the process running
+          while true; do
+            sleep 60
+          done
