@@ -14,13 +14,6 @@ jobs:
       with:
         submodules: true
 
-    - name: Install Zola
-      run: sudo port install zola
-
-    - name: Build Zola site
-      run: |
-        zola build
-
     - name: Deploy to Linode
       uses: appleboy/ssh-action@master
       with:
